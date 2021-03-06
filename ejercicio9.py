@@ -1,0 +1,8 @@
+print("ingrese su nombre de usuario")
+username = input ()
+print("hola "+ username)
+A=float(input("ingrese un monto a invertir: "))
+B=float(input("ingrese su interes anual: "))
+C=float(input("por cuantos años hara esta inversion: "))
+capital=A*(1+C*B)
+print("el capital obtenido de la inversion es de: ",capital)
